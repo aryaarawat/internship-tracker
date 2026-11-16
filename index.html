@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hardware Internship Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+:root{--bg:#f7f7f5;--panel:#fff;--ink:#1a1a1a;--muted:#6b6b6b;--line:#e4e4e0;--accent:#2b6cb0;--accent-soft:#e6eff9;--new:#2f855a;--new-soft:#e3f4ea;--warn:#b7791f;--warn-soft:#fbf1dc;--closed:#9b9b9b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121314;--panel:#1b1c1e;--ink:#ececec;--muted:#9a9a9a;--line:#2c2d30;--accent:#7fb2ea;--accent-soft:#1d2a3a;--new:#68d391;--new-soft:#1a2e22;--warn:#f6c66b;--warn-soft:#33291a;--closed:#666}}
+:root[data-theme="dark"]{--bg:#121314;--panel:#1b1c1e;--ink:#ececec;--muted:#9a9a9a;--line:#2c2d30;--accent:#7fb2ea;--accent-soft:#1d2a3a;--new:#68d391;--new-soft:#1a2e22;--warn:#f6c66b;--warn-soft:#33291a;--closed:#666}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 16px 60px}
+header h1{font-size:24px;margin:0 0 4px;letter-spacing:-.01em}
+header p{margin:0;color:var(--muted);font-size:14px}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px;min-width:130px}
+.stat b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:14px}
+.tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:10px 14px;font:inherit;font-weight:500;color:var(--muted);cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--accent)}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.controls input,.controls select{font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink)}
+.controls input{flex:1;min-width:180px}
+.controls label{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--muted)}
+.list{display:flex;flex-direction:column;gap:8px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:start}
+.card.closed{opacity:.55}
+.card a{color:var(--ink);font-weight:600;text-decoration:none}
+.card a:hover{color:var(--accent);text-decoration:underline}
+.co{font-size:13px;color:var(--muted)}
+.meta{grid-column:1/-1;display:flex;gap:6px;flex-wrap:wrap;font-size:12px}
+.pill{padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.pill.new{background:var(--new-soft);color:var(--new);font-weight:600}
+.pill.flag{background:var(--warn-soft);color:var(--warn)}
+.pill.gray{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.date{font-size:12px;color:var(--muted);white-space:nowrap;font-family:"JetBrains Mono",monospace}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13.5px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);cursor:pointer;user-select:none;background:var(--bg)}
+td a{color:var(--accent)}
+.score{font-family:"JetBrains Mono",monospace;font-weight:500}
+.tablewrap{overflow-x:auto}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+footer{margin-top:30px;font-size:12px;color:var(--muted)}
+.theme{float:right;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:5px 9px;cursor:pointer;font:inherit;font-size:13px}
+@media (max-width:640px){.card{grid-template-columns:1fr}.date{order:-1}.hide-sm{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <button class="theme" id="theme" aria-label="Toggle theme">◐</button>
+  <h1>Hardware Internship Tracker</h1>
+  <p>Summer 2027 RTL, DV, FPGA and silicon validation internships. Company job boards are checked every hour, and new postings are sent to Discord.</p>
+</header>
+
+<div class="stats">
+  <div class="stat"><b id="s-open">–</b><span>Open postings</span></div>
+  <div class="stat"><b id="s-new">–</b><span>New (72h)</span></div>
+  <div class="stat"><b id="s-boards">–</b><span>Boards tracked</span></div>
+  <div class="stat"><b id="s-checked" style="font-size:15px;padding-top:6px">–</b><span>Last checked</span></div>
+</div>
+
+<div class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" data-tab="live">Live postings</button>
+  <button role="tab" aria-selected="false" data-tab="targets">Target list</button>
+</div>
+
+<section id="live">
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search company, title, location…">
+    <select id="cat"><option value="">All categories</option></select>
+    <select id="season"><option value="Summer">Summer only</option><option value="">All terms</option></select>
+    <label><input type="checkbox" id="showClosed"> Show closed</label>
+  </div>
+  <div class="list" id="list"></div>
+</section>
+
+<section id="targets" hidden>
+  <div class="controls">
+    <input id="tq" type="search" placeholder="Search target list…">
+    <select id="tstatus"><option value="">All statuses</option><option>open posting</option><option>likely to hire</option><option>unverified</option></select>
+    <select id="tsize"><option value="">All sizes</option><option>startup</option><option>mid</option><option>large</option></select>
+  </div>
+  <div class="tablewrap"><table id="ttable"><thead></thead><tbody></tbody></table></div>
+</section>
+
+<footer id="foot"></footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const FLAG = /(spacex|rocket lab|anduril|rtx|raytheon|draper|astranis|saronic|muon|lockheed|northrop|epirus|chaos|varda|hermeus)/i;
+let postings = [], targets = [], sortKey = "fit score", sortDir = -1;
+
+try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch(e){}
+$("#theme").onclick = () => {
+  const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem("theme", next); } catch(e){}
+};
+
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  $("#live").hidden = b.dataset.tab !== "live"; $("#targets").hidden = b.dataset.tab !== "targets";
+});
+
+const ago = iso => {
+  const m = (Date.now() - new Date(iso)) / 60000;
+  if (m < 60) return Math.max(1, Math.round(m)) + "m ago";
+  if (m < 1440) return Math.round(m / 60) + "h ago";
+  return Math.round(m / 1440) + "d ago";
+};
+
+function renderLive() {
+  const q = $("#q").value.toLowerCase(), cat = $("#cat").value, sea = $("#season").value, sc = $("#showClosed").checked;
+  const rows = postings.filter(p => (sc || p.status === "open") && (!cat || p.category === cat) && (!sea || p.season === sea)
+    && (!q || `${p.company} ${p.title} ${p.location}`.toLowerCase().includes(q)))
+    .sort((a, b) => (a.status === "closed") - (b.status === "closed") || b.first_seen.localeCompare(a.first_seen) || a.company.localeCompare(b.company));
+  $("#list").innerHTML = rows.length ? rows.map(p => {
+    const isNew = p.status === "open" && Date.now() - new Date(p.first_seen) < 72 * 3600e3;
+    return `<div class="card ${p.status}">
+      <div><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a><div class="co">${esc(p.company)}</div></div>
+      <div class="date">${p.status === "closed" ? "closed " + ago(p.closed_at) : "found " + ago(p.first_seen)}</div>
+      <div class="meta">${isNew ? '<span class="pill new">NEW</span>' : ""}<span class="pill">${esc(p.category)}</span>
+        <span class="pill gray">${esc(p.season)}</span>${p.location ? `<span class="pill gray">${esc(p.location.slice(0, 60))}</span>` : ""}
+        ${FLAG.test(p.company) ? '<span class="pill flag">likely citizenship/ITAR</span>' : ""}</div></div>`;
+  }).join("") : '<div class="empty">No postings match.</div>';
+}
+
+const TCOLS = ["company","size","role title","role category","status","fit score","requirements I might not meet","reason"];
+function renderTargets() {
+  const q = $("#tq").value.toLowerCase(), st = $("#tstatus").value, sz = $("#tsize").value;
+  $("#ttable thead").innerHTML = "<tr>" + TCOLS.map(c => `<th data-k="${c}" class="${["requirements I might not meet","reason"].includes(c) ? "hide-sm" : ""}">${c}${c === sortKey ? (sortDir > 0 ? " ▲" : " ▼") : ""}</th>`).join("") + "</tr>";
+  document.querySelectorAll("#ttable th").forEach(th => th.onclick = () => { const k = th.dataset.k; sortDir = sortKey === k ? -sortDir : (k === "fit score" ? -1 : 1); sortKey = k; renderTargets(); });
+  const rows = targets.filter(r => (!st || r.status === st) && (!sz || r.size === sz) && (!q || Object.values(r).join(" ").toLowerCase().includes(q)))
+    .sort((a, b) => { const x = a[sortKey], y = b[sortKey]; return (sortKey === "fit score" ? (x - y) : String(x).localeCompare(String(y))) * sortDir; });
+  $("#ttable tbody").innerHTML = rows.map(r => `<tr>
+    <td><b>${esc(r.company)}</b><div class="co">${esc(r["HQ location"])}</div></td><td>${esc(r.size)}</td>
+    <td>${r["posting URL"] ? `<a href="${esc(r["posting URL"])}" target="_blank" rel="noopener">${esc(r["role title"])}</a>` : esc(r["role title"])}</td>
+    <td>${esc(r["role category"])}</td><td>${esc(r.status)}</td><td class="score">${esc(r["fit score"])}</td>
+    <td class="hide-sm">${esc(r["requirements I might not meet"])}</td><td class="hide-sm">${esc(r.reason)}</td></tr>`).join("");
+}
+
+["#q","#cat","#season","#showClosed"].forEach(s => $(s).addEventListener("input", renderLive));
+["#tq","#tstatus","#tsize"].forEach(s => $(s).addEventListener("input", renderTargets));
+
+(async () => {
+  const bust = "?t=" + Date.now();
+  try {
+    const d = await (await fetch("data/postings.json" + bust)).json();
+    postings = Object.values(d.postings || {});
+    const open = postings.filter(p => p.status === "open");
+    $("#s-open").textContent = open.length;
+    $("#s-new").textContent = open.filter(p => Date.now() - new Date(p.first_seen) < 72 * 3600e3).length;
+    $("#s-boards").textContent = Object.keys(d.boards || {}).length;
+    $("#s-checked").textContent = d.last_checked ? ago(d.last_checked) : "–";
+    [...new Set(postings.map(p => p.category))].sort().forEach(c => $("#cat").insertAdjacentHTML("beforeend", `<option>${esc(c)}</option>`));
+    const bad = Object.entries(d.boards || {}).filter(([, v]) => !v.ok).map(([k]) => k);
+    $("#foot").textContent = (bad.length ? `Boards that failed on the last check: ${bad.join(", ")}. ` : "") + "Data comes from the companies' own Greenhouse, Lever, Ashby and Workday boards.";
+  } catch (e) { $("#list").innerHTML = '<div class="empty">Could not load postings yet. The first hourly check may still be running.</div>'; }
+  renderLive();
+  try {
+    const csv = await (await fetch("targets.csv" + bust)).text();
+    targets = Papa.parse(csv, { header: true, skipEmptyLines: true }).data.map(r => ({ ...r, "fit score": +r["fit score"] }));
+  } catch (e) {}
+  renderTargets();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,381 @@
+[
+ {
+  "company": "Tenstorrent",
+  "ats": "greenhouse",
+  "slug": "tenstorrent"
+ },
+ {
+  "company": "SambaNova",
+  "ats": "greenhouse",
+  "slug": "sambanovasystems"
+ },
+ {
+  "company": "Lightmatter",
+  "ats": "greenhouse",
+  "slug": "lightmatter"
+ },
+ {
+  "company": "Efficient Computer",
+  "ats": "greenhouse",
+  "slug": "efficientcomputer"
+ },
+ {
+  "company": "Astera Labs",
+  "ats": "greenhouse",
+  "slug": "asteralabs"
+ },
+ {
+  "company": "Baya Systems",
+  "ats": "greenhouse",
+  "slug": "bayasystems"
+ },
+ {
+  "company": "FuriosaAI",
+  "ats": "greenhouse",
+  "slug": "furiosaai"
+ },
+ {
+  "company": "Lattice",
+  "ats": "greenhouse",
+  "slug": "lattice"
+ },
+ {
+  "company": "PsiQuantum",
+  "ats": "greenhouse",
+  "slug": "psiquantum"
+ },
+ {
+  "company": "IonQ",
+  "ats": "greenhouse",
+  "slug": "ionq"
+ },
+ {
+  "company": "Astranis",
+  "ats": "greenhouse",
+  "slug": "astranis"
+ },
+ {
+  "company": "Neuralink",
+  "ats": "greenhouse",
+  "slug": "neuralink"
+ },
+ {
+  "company": "Jump Trading",
+  "ats": "greenhouse",
+  "slug": "jumptrading"
+ },
+ {
+  "company": "IMC",
+  "ats": "greenhouse",
+  "slug": "imc"
+ },
+ {
+  "company": "Jane Street",
+  "ats": "greenhouse",
+  "slug": "janestreet"
+ },
+ {
+  "company": "Hudson River Trading",
+  "ats": "greenhouse",
+  "slug": "wehrtyou"
+ },
+ {
+  "company": "DRW",
+  "ats": "greenhouse",
+  "slug": "drweng"
+ },
+ {
+  "company": "Tower Research",
+  "ats": "greenhouse",
+  "slug": "towerresearchcapital"
+ },
+ {
+  "company": "Varda",
+  "ats": "greenhouse",
+  "slug": "vardaspace"
+ },
+ {
+  "company": "Zipline",
+  "ats": "greenhouse",
+  "slug": "flyzipline"
+ },
+ {
+  "company": "Rocket Lab",
+  "ats": "greenhouse",
+  "slug": "rocketlab"
+ },
+ {
+  "company": "Muon Space",
+  "ats": "greenhouse",
+  "slug": "muonspace"
+ },
+ {
+  "company": "Chaos Industries",
+  "ats": "greenhouse",
+  "slug": "chaosindustries"
+ },
+ {
+  "company": "Epirus",
+  "ats": "greenhouse",
+  "slug": "epirus"
+ },
+ {
+  "company": "Etched",
+  "ats": "greenhouse",
+  "slug": "etchedai"
+ },
+ {
+  "company": "Oura",
+  "ats": "greenhouse",
+  "slug": "oura"
+ },
+ {
+  "company": "Formlabs",
+  "ats": "greenhouse",
+  "slug": "formlabs"
+ },
+ {
+  "company": "Relativity Space",
+  "ats": "greenhouse",
+  "slug": "relativity"
+ },
+ {
+  "company": "Apptronik",
+  "ats": "greenhouse",
+  "slug": "apptronik"
+ },
+ {
+  "company": "Figure",
+  "ats": "greenhouse",
+  "slug": "figureai"
+ },
+ {
+  "company": "Waymo",
+  "ats": "greenhouse",
+  "slug": "waymo"
+ },
+ {
+  "company": "Graphcore",
+  "ats": "greenhouse",
+  "slug": "graphcore"
+ },
+ {
+  "company": "Anduril",
+  "ats": "greenhouse",
+  "slug": "andurilindustries"
+ },
+ {
+  "company": "SpaceX",
+  "ats": "greenhouse",
+  "slug": "spacex"
+ },
+ {
+  "company": "Lucid",
+  "ats": "greenhouse",
+  "slug": "lucidmotors"
+ },
+ {
+  "company": "Planet",
+  "ats": "greenhouse",
+  "slug": "planetlabs"
+ },
+ {
+  "company": "Ursa Major",
+  "ats": "greenhouse",
+  "slug": "ursamajor"
+ },
+ {
+  "company": "Anthropic",
+  "ats": "greenhouse",
+  "slug": "anthropic"
+ },
+ {
+  "company": "Optiver",
+  "ats": "greenhouse",
+  "slug": "optiver"
+ },
+ {
+  "company": "Etched",
+  "ats": "ashby",
+  "slug": "etched"
+ },
+ {
+  "company": "MatX",
+  "ats": "ashby",
+  "slug": "matx"
+ },
+ {
+  "company": "Cerebras",
+  "ats": "ashby",
+  "slug": "cerebras"
+ },
+ {
+  "company": "d-Matrix",
+  "ats": "ashby",
+  "slug": "d-matrix"
+ },
+ {
+  "company": "Normal Computing",
+  "ats": "ashby",
+  "slug": "normalcomputing"
+ },
+ {
+  "company": "Extropic",
+  "ats": "ashby",
+  "slug": "extropic"
+ },
+ {
+  "company": "Fractile",
+  "ats": "ashby",
+  "slug": "fractile"
+ },
+ {
+  "company": "Quadric",
+  "ats": "ashby",
+  "slug": "quadric"
+ },
+ {
+  "company": "Saronic",
+  "ats": "ashby",
+  "slug": "saronic"
+ },
+ {
+  "company": "Skydio",
+  "ats": "ashby",
+  "slug": "skydio"
+ },
+ {
+  "company": "Axelera",
+  "ats": "ashby",
+  "slug": "axelera"
+ },
+ {
+  "company": "OpenAI",
+  "ats": "ashby",
+  "slug": "openai"
+ },
+ {
+  "company": "1X",
+  "ats": "ashby",
+  "slug": "1x"
+ },
+ {
+  "company": "Lambda",
+  "ats": "ashby",
+  "slug": "lambda"
+ },
+ {
+  "company": "Eliyan",
+  "ats": "lever",
+  "slug": "eliyan"
+ },
+ {
+  "company": "Rigetti",
+  "ats": "lever",
+  "slug": "rigetti"
+ },
+ {
+  "company": "Atom Computing",
+  "ats": "lever",
+  "slug": "atomcomputing"
+ },
+ {
+  "company": "Hermeus",
+  "ats": "lever",
+  "slug": "hermeus"
+ },
+ {
+  "company": "Zoox",
+  "ats": "lever",
+  "slug": "zoox"
+ },
+ {
+  "company": "Aeva",
+  "ats": "lever",
+  "slug": "aeva"
+ },
+ {
+  "company": "NVIDIA",
+  "ats": "workday",
+  "host": "nvidia.wd5.myworkdayjobs.com",
+  "tenant": "nvidia",
+  "site": "NVIDIAExternalCareerSite"
+ },
+ {
+  "company": "Marvell",
+  "ats": "workday",
+  "host": "marvell.wd1.myworkdayjobs.com",
+  "tenant": "marvell",
+  "site": "MarvellCareers"
+ },
+ {
+  "company": "Intel",
+  "ats": "workday",
+  "host": "intel.wd1.myworkdayjobs.com",
+  "tenant": "intel",
+  "site": "External"
+ },
+ {
+  "company": "Analog Devices",
+  "ats": "workday",
+  "host": "analogdevices.wd1.myworkdayjobs.com",
+  "tenant": "analogdevices",
+  "site": "External"
+ },
+ {
+  "company": "Cadence",
+  "ats": "workday",
+  "host": "cadence.wd1.myworkdayjobs.com",
+  "tenant": "cadence",
+  "site": "External_Careers"
+ },
+ {
+  "company": "Silicon Labs",
+  "ats": "workday",
+  "host": "silabs.wd1.myworkdayjobs.com",
+  "tenant": "silabs",
+  "site": "SiliconlabsCareers"
+ },
+ {
+  "company": "Micron",
+  "ats": "workday",
+  "host": "micron.wd1.myworkdayjobs.com",
+  "tenant": "micron",
+  "site": "External"
+ },
+ {
+  "company": "Microchip",
+  "ats": "workday",
+  "host": "microchiphr.wd5.myworkdayjobs.com",
+  "tenant": "microchiphr",
+  "site": "External"
+ },
+ {
+  "company": "Northrop Grumman",
+  "ats": "workday",
+  "host": "ngc.wd1.myworkdayjobs.com",
+  "tenant": "ngc",
+  "site": "Northrop_Grumman_External_Site"
+ },
+ {
+  "company": "RTX",
+  "ats": "workday",
+  "host": "globalhr.wd5.myworkdayjobs.com",
+  "tenant": "globalhr",
+  "site": "REC_RTX_Ext_Gateway"
+ },
+ {
+  "company": "Draper",
+  "ats": "workday",
+  "host": "draper.wd5.myworkdayjobs.com",
+  "tenant": "draper",
+  "site": "Draper_Careers"
+ },
+ {
+  "company": "Semtech",
+  "ats": "workday",
+  "host": "semtech.wd1.myworkdayjobs.com",
+  "tenant": "semtech",
+  "site": "SemtechCareers"
+ }
+]
