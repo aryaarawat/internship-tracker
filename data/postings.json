@@ -1,0 +1,1579 @@
+{
+ "boards": {
+  "1X": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Aeva": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Analog Devices": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Anduril": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Anthropic": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Apptronik": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Astera Labs": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Astranis": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Atom Computing": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Axelera": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Baya Systems": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Cadence": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Cerebras": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Chaos Industries": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "DRW": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Draper": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Efficient Computer": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Eliyan": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Epirus": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Etched": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Extropic": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Figure": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Formlabs": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Fractile": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "FuriosaAI": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Graphcore": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Hermeus": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Hudson River Trading": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "IMC": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Intel": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "IonQ": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Jane Street": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Jump Trading": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Lambda": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Lattice": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Lightmatter": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Lucid": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Marvell": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "MatX": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Microchip": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Micron": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Muon Space": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "NVIDIA": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Neuralink": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Normal Computing": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Northrop Grumman": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "OpenAI": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Optiver": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Oura": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Planet": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "PsiQuantum": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Quadric": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "RTX": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Relativity Space": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Rigetti": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Rocket Lab": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "SambaNova": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Saronic": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Semtech": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Silicon Labs": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Skydio": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "SpaceX": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Tenstorrent": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Tower Research": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Ursa Major": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Varda": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Waymo": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Zipline": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "Zoox": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  },
+  "d-Matrix": {
+   "checked": "2026-11-16T22:38:43Z",
+   "error": null,
+   "ok": true
+  }
+ },
+ "errors": [],
+ "last_checked": "2026-11-16T22:38:43Z",
+ "postings": {
+  "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298": {
+   "category": "Digital / ASIC design",
+   "company": "Analog Devices",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "2 Locations",
+   "season": "Summer",
+   "status": "open",
+   "title": "Digital Design Engineer Intern",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298"
+  },
+  "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Test-Engineering-Intern_R266146": {
+   "category": "Validation / test",
+   "company": "Analog Devices",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "2 Locations",
+   "season": "Summer",
+   "status": "open",
+   "title": "Test Engineering Intern",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Test-Engineering-Intern_R266146"
+  },
+  "https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007": {
+   "category": "Electrical / hardware",
+   "company": "Anduril",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "2027 Electrical Engineer Intern",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007"
+  },
+  "https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007": {
+   "category": "Electrical / hardware",
+   "company": "Anduril",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
+   "season": "Winter",
+   "status": "open",
+   "title": "Winter 2027 Electrical Engineer Co-op",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007"
+  },
+  "https://boards.greenhouse.io/andurilindustries/jobs/5257571007?gh_jid=5257571007": {
+   "category": "Validation / test",
+   "company": "Anduril",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Ashville, Ohio, United States; Santa Ana, California, United States",
+   "season": "Winter",
+   "status": "open",
+   "title": "Winter 2027 Quality & Test Engineer Co-op",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5257571007?gh_jid=5257571007"
+  },
+  "https://boards.greenhouse.io/andurilindustries/jobs/5257674007?gh_jid=5257674007": {
+   "category": "Validation / test",
+   "company": "Anduril",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Ashville, Ohio, United States; Costa Mesa, California, United States; Irvine, California, United States; Quonset, Rhode Island, United States; Santa Ana, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "2027 Quality & Test Engineer Intern",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5257674007?gh_jid=5257674007"
+  },
+  "https://boards.greenhouse.io/andurilindustries/jobs/5257709007?gh_jid=5257709007": {
+   "category": "Validation / test",
+   "company": "Anduril",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Costa Mesa, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "2027 Flight Test Engineer Intern",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5257709007?gh_jid=5257709007"
+  },
+  "https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007": {
+   "category": "Embedded / firmware",
+   "company": "Anduril",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Costa Mesa, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "2027 Firmware Engineer Intern",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265158007?gh_jid=5265158007"
+  },
+  "https://boards.greenhouse.io/andurilindustries/jobs/5268689007?gh_jid=5268689007": {
+   "category": "Validation / test",
+   "company": "Anduril",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "2027 Field Test Engineer Intern",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5268689007?gh_jid=5268689007"
+  },
+  "https://boards.greenhouse.io/lightmatter/jobs/5473869008?gh_jid=5473869008": {
+   "category": "Validation / test",
+   "company": "Lightmatter",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Mountain View, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Test Engineering, Intern (Summer 2027)",
+   "url": "https://boards.greenhouse.io/lightmatter/jobs/5473869008?gh_jid=5473869008"
+  },
+  "https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008": {
+   "category": "Embedded / firmware",
+   "company": "Lightmatter",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Boston, MA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Laser Firmware Intern - Summer 2027",
+   "url": "https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008"
+  },
+  "https://boards.greenhouse.io/neuralink/jobs/6607398003?gh_jid=6607398003": {
+   "category": "Electrical / hardware",
+   "company": "Neuralink",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineer Intern, Robotics and Surgery Engineering",
+   "url": "https://boards.greenhouse.io/neuralink/jobs/6607398003?gh_jid=6607398003"
+  },
+  "https://boards.greenhouse.io/neuralink/jobs/6648992003?gh_jid=6648992003": {
+   "category": "Embedded / firmware",
+   "company": "Neuralink",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Firmware Engineer Intern, Robotics and Surgery Engineering",
+   "url": "https://boards.greenhouse.io/neuralink/jobs/6648992003?gh_jid=6648992003"
+  },
+  "https://boards.greenhouse.io/neuralink/jobs/7090489003?gh_jid=7090489003": {
+   "category": "Digital / ASIC design",
+   "company": "Neuralink",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Digital IC Design Engineer Intern",
+   "url": "https://boards.greenhouse.io/neuralink/jobs/7090489003?gh_jid=7090489003"
+  },
+  "https://boards.greenhouse.io/neuralink/jobs/7565469003?gh_jid=7565469003": {
+   "category": "Digital / ASIC design",
+   "company": "Neuralink",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Analog and Mixed-Signal IC Design Engineer Intern",
+   "url": "https://boards.greenhouse.io/neuralink/jobs/7565469003?gh_jid=7565469003"
+  },
+  "https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003": {
+   "category": "Electrical / hardware",
+   "company": "Neuralink",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Manufacturing Intern, Surgery & Robot Hardware",
+   "url": "https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003"
+  },
+  "https://boards.greenhouse.io/neuralink/jobs/7702527003?gh_jid=7702527003": {
+   "category": "Embedded / firmware",
+   "company": "Neuralink",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Austin, Texas, United States; South San Francisco, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineer Intern, Implant Embedded Systems",
+   "url": "https://boards.greenhouse.io/neuralink/jobs/7702527003?gh_jid=7702527003"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002": {
+   "category": "Digital / ASIC design",
+   "company": "SpaceX",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Flexible - Any SpaceX Site",
+   "season": "Summer",
+   "status": "open",
+   "title": "Summer 2027 Silicon Engineering Internship/Co-op",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8636134002?gh_jid=8636134002": {
+   "category": "Digital / ASIC design",
+   "company": "SpaceX",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Flexible - Any SpaceX Site",
+   "season": "Spring",
+   "status": "open",
+   "title": "Spring 2027 Silicon Engineering Internship/Co-op",
+   "url": "https://boards.greenhouse.io/spacex/jobs/8636134002?gh_jid=8636134002"
+  },
+  "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/Burlington-MA/Product-Engineering-Internship--Electronics-Hardware-Design--Fall-2026-_R54158-2": {
+   "category": "Electrical / hardware",
+   "company": "Cadence",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Burlington, MA",
+   "season": "Fall",
+   "status": "open",
+   "title": "Product Engineering Internship, Electronics Hardware Design (Fall 2026)",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/Burlington-MA/Product-Engineering-Internship--Electronics-Hardware-Design--Fall-2026-_R54158-2"
+  },
+  "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Silicon_R56655-1": {
+   "category": "Digital / ASIC design",
+   "company": "Cadence",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "SAN JOSE",
+   "season": "Summer",
+   "status": "open",
+   "title": "CST Application Engineer Intern - Silicon",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Silicon_R56655-1"
+  },
+  "https://careers.formlabs.com/job/8148251/apply/?gh_jid=8148251": {
+   "category": "Electrical / hardware",
+   "company": "Formlabs",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Somerville, MA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineering Intern (Summer 2027)",
+   "url": "https://careers.formlabs.com/job/8148251/apply/?gh_jid=8148251"
+  },
+  "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004": {
+   "category": "Electrical / hardware",
+   "company": "Formlabs",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Somerville, MA",
+   "season": "Winter",
+   "status": "open",
+   "title": "Hardware Systems Integration Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004"
+  },
+  "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226": {
+   "category": "Electrical / hardware",
+   "company": "Formlabs",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Somerville, MA",
+   "season": "Winter",
+   "status": "open",
+   "title": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226"
+  },
+  "https://careers.formlabs.com/job/8172394/apply/?gh_jid=8172394": {
+   "category": "Electrical / hardware",
+   "company": "Formlabs",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Somerville, MA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware R&D Engineering Intern (Summer 2027)",
+   "url": "https://careers.formlabs.com/job/8172394/apply/?gh_jid=8172394"
+  },
+  "https://careers.formlabs.com/job/8186619/apply/?gh_jid=8186619": {
+   "category": "Validation / test",
+   "company": "Formlabs",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Somerville, MA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Reliability Intern (Summer 2027)",
+   "url": "https://careers.formlabs.com/job/8186619/apply/?gh_jid=8186619"
+  },
+  "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515": {
+   "category": "Validation / test",
+   "company": "Formlabs",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Somerville, MA",
+   "season": "Winter",
+   "status": "open",
+   "title": "Hardware Test Engineering Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515"
+  },
+  "https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683": {
+   "category": "Electrical / hardware",
+   "company": "Formlabs",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Somerville, MA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Systems Integration Intern (Summer 2027)",
+   "url": "https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683"
+  },
+  "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085": {
+   "category": "Digital / ASIC design",
+   "company": "Draper",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Cambridge, MA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Analog ASIC Design Intern (Summer 2027)",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085"
+  },
+  "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Electrical-Engineering-Co-Op--Spring-2027-_JR002941": {
+   "category": "Electrical / hardware",
+   "company": "Draper",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Cambridge, MA",
+   "season": "Spring",
+   "status": "open",
+   "title": "Electrical Engineering Co-Op (Spring 2027)",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Electrical-Engineering-Co-Op--Spring-2027-_JR002941"
+  },
+  "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Integrated-Circuits-Intern_JR002973": {
+   "category": "Digital / ASIC design",
+   "company": "Draper",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Cambridge, MA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Integrated Circuits Intern (Summer 2027)",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Integrated-Circuits-Intern_JR002973"
+  },
+  "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Co-op--Spring-2027-_JR002885": {
+   "category": "Electrical / hardware",
+   "company": "Draper",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Cambridge, MA",
+   "season": "Spring",
+   "status": "open",
+   "title": "Sensor Electrical Engineering Co-op (Spring 2027)",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Co-op--Spring-2027-_JR002885"
+  },
+  "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Intern--Summer-2027-_JR003095": {
+   "category": "Electrical / hardware",
+   "company": "Draper",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Cambridge, MA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Sensor Electrical Engineering Intern (Summer 2027)",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Intern--Summer-2027-_JR003095"
+  },
+  "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Lowell-MA/Digital-Engineering---Requirements-Engineering-Co-Op--Spring-2027-_JR002944": {
+   "category": "Digital / ASIC design",
+   "company": "Draper",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "3 Locations",
+   "season": "Spring",
+   "status": "open",
+   "title": "Digital Engineering\u202f\u2013\u202fRequirements Engineering Co-Op (Spring 2027)",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Lowell-MA/Digital-Engineering---Requirements-Engineering-Co-Op--Spring-2027-_JR002944"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1": {
+   "category": "Digital / ASIC design",
+   "company": "RTX",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130",
+   "season": "Winter",
+   "status": "open",
+   "title": "Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Summer-Fall-2027--Onsite-_01871519": {
+   "category": "Digital / ASIC design",
+   "company": "RTX",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130",
+   "season": "Summer",
+   "status": "open",
+   "title": "Digital Hardware Design Engineer Co-op (Summer/Fall 2027)(Onsite)",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Summer-Fall-2027--Onsite-_01871519"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Electrical-Engineer-Co-Op--Spring-Summer-2027-_01873469": {
+   "category": "Electrical / hardware",
+   "company": "RTX",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineer Co-Op (Spring/Summer 2027)",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Electrical-Engineer-Co-Op--Spring-Summer-2027-_01873469"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037": {
+   "category": "FPGA",
+   "company": "RTX",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US-TX-MCKINNEY-513WD ~ 2501 W University Dr ~ WING D BLDG",
+   "season": "Summer",
+   "status": "open",
+   "title": "FPGA Engineering Intern (Summer 2027)(Onsite)",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/FPGA-Engineering-Intern--Summer-2027--Onsite-_01880037"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WZ--2501-W-University-Dr--WING-Z-BLDG/Electrical-Engineering-Intern--Summer-2027-_01889354": {
+   "category": "Electrical / hardware",
+   "company": "RTX",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US-TX-MCKINNEY-513WZ ~ 2501 W University Dr ~ WING Z BLDG",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineering Intern (Summer 2027)",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WZ--2501-W-University-Dr--WING-Z-BLDG/Electrical-Engineering-Intern--Summer-2027-_01889354"
+  },
+  "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Hardware-Engineering-Intern_JR0287533": {
+   "category": "Electrical / hardware",
+   "company": "Intel",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "2 Locations",
+   "season": "Summer",
+   "status": "open",
+   "title": "AI Hardware Engineering Intern",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Hardware-Engineering-Intern_JR0287533"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4704784006": {
+   "category": "Validation / test",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Reliability Intern (Summer 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704784006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4704803006": {
+   "category": "FPGA",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Winter",
+   "status": "open",
+   "title": "FPGA Intern (Winter 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704803006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4704805006": {
+   "category": "FPGA",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Summer",
+   "status": "open",
+   "title": "FPGA Intern (Summer 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704805006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4705652006": {
+   "category": "Validation / test",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Winter",
+   "status": "open",
+   "title": "Environmental Test Engineer Intern (Winter 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4705652006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4707012006": {
+   "category": "Validation / test",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Winter",
+   "status": "open",
+   "title": "Hardware Test Intern (Winter 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4707012006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4708417006": {
+   "category": "Electrical / hardware",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Winter",
+   "status": "open",
+   "title": "RF Hardware Intern (Winter 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4708417006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4715788006": {
+   "category": "Electrical / hardware",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Integration Intern - RF (Summer 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4715788006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4716087006": {
+   "category": "Electrical / hardware",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Winter",
+   "status": "open",
+   "title": "Software Defined Radio Hardware Intern (Winter 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4716087006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4716184006": {
+   "category": "Validation / test",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Winter",
+   "status": "open",
+   "title": "RF Validation Intern (Winter 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4716184006"
+  },
+  "https://job-boards.greenhouse.io/astranis/jobs/4716499006": {
+   "category": "Validation / test",
+   "company": "Astranis",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Francisco",
+   "season": "Summer",
+   "status": "open",
+   "title": "RF Validation Intern (Summer 2027)",
+   "url": "https://job-boards.greenhouse.io/astranis/jobs/4716499006"
+  },
+  "https://job-boards.greenhouse.io/figureai/jobs/4601309006": {
+   "category": "Embedded / firmware",
+   "company": "Figure",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose, CA",
+   "season": "Winter",
+   "status": "open",
+   "title": "Firmware Engineering Intern [Winter 2027]",
+   "url": "https://job-boards.greenhouse.io/figureai/jobs/4601309006"
+  },
+  "https://job-boards.greenhouse.io/figureai/jobs/4606072006": {
+   "category": "Validation / test",
+   "company": "Figure",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose, CA",
+   "season": "Winter",
+   "status": "open",
+   "title": "Validation Engineering Intern [Winter 2027]",
+   "url": "https://job-boards.greenhouse.io/figureai/jobs/4606072006"
+  },
+  "https://job-boards.greenhouse.io/figureai/jobs/4613067006": {
+   "category": "Validation / test",
+   "company": "Figure",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose, CA",
+   "season": "Winter",
+   "status": "open",
+   "title": "Hardware Reliability Intern [Winter 2027]",
+   "url": "https://job-boards.greenhouse.io/figureai/jobs/4613067006"
+  },
+  "https://job-boards.greenhouse.io/figureai/jobs/4676467006": {
+   "category": "Electrical / hardware",
+   "company": "Figure",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose, CA",
+   "season": "Winter",
+   "status": "open",
+   "title": "Electrical Engineering Intern [Winter 2027]",
+   "url": "https://job-boards.greenhouse.io/figureai/jobs/4676467006"
+  },
+  "https://job-boards.greenhouse.io/muonspace/jobs/5252677007": {
+   "category": "Electrical / hardware",
+   "company": "Muon Space",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Mountain View, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "GNC Hardware Engineering Intern (Summer 2027)",
+   "url": "https://job-boards.greenhouse.io/muonspace/jobs/5252677007"
+  },
+  "https://job-boards.greenhouse.io/muonspace/jobs/5255112007": {
+   "category": "Electrical / hardware",
+   "company": "Muon Space",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineering Intern (Summer 2027)",
+   "url": "https://job-boards.greenhouse.io/muonspace/jobs/5255112007"
+  },
+  "https://job-boards.greenhouse.io/muonspace/jobs/5256286007": {
+   "category": "Validation / test",
+   "company": "Muon Space",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Environmental Test Engineering Intern (Summer 2027)",
+   "url": "https://job-boards.greenhouse.io/muonspace/jobs/5256286007"
+  },
+  "https://job-boards.greenhouse.io/muonspace/jobs/5256288007": {
+   "category": "Validation / test",
+   "company": "Muon Space",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Spacecraft Test Engineering Intern (Summer 2027)",
+   "url": "https://job-boards.greenhouse.io/muonspace/jobs/5256288007"
+  },
+  "https://job-boards.greenhouse.io/rocketlab/jobs/7987042003": {
+   "category": "Validation / test",
+   "company": "Rocket Lab",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Long Beach, CA",
+   "season": "Spring",
+   "status": "open",
+   "title": "Test Engineering Intern - Manufacturing Spring 2027",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987042003"
+  },
+  "https://job-boards.greenhouse.io/rocketlab/jobs/7990350003": {
+   "category": "Validation / test",
+   "company": "Rocket Lab",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Stennis Space Center, MS",
+   "season": "Summer",
+   "status": "open",
+   "title": "Test Engineering Intern Summer 2027",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990350003"
+  },
+  "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003": {
+   "category": "Validation / test",
+   "company": "Rocket Lab",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Stennis Space Center, MS",
+   "season": "Spring",
+   "status": "open",
+   "title": "Test Engineering Intern Spring 2027",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003"
+  },
+  "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003": {
+   "category": "Electrical / hardware",
+   "company": "Rocket Lab",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Long Beach, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineering Intern Summer 2027",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003"
+  },
+  "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003": {
+   "category": "Electrical / hardware",
+   "company": "Rocket Lab",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Pasadena, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineering Intern Summer 2027",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003"
+  },
+  "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003": {
+   "category": "Validation / test",
+   "company": "Rocket Lab",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Wallops Island, VA",
+   "season": "Spring",
+   "status": "open",
+   "title": "Test Engineering Intern Spring 2027",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003"
+  },
+  "https://jobs.ashbyhq.com/Etched/252ef868-9c97-4d7d-91fe-66bc4f686765": {
+   "category": "Electrical / hardware",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "Internal Acceleration, Research Engineer (Hardware)",
+   "url": "https://jobs.ashbyhq.com/Etched/252ef868-9c97-4d7d-91fe-66bc4f686765"
+  },
+  "https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8": {
+   "category": "Digital / ASIC design",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "Chip Simulation Software Intern",
+   "url": "https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8"
+  },
+  "https://jobs.ashbyhq.com/Etched/5f1f5739-3b58-467c-b351-ff183c94d96d": {
+   "category": "Digital / ASIC design",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "DFT Intern",
+   "url": "https://jobs.ashbyhq.com/Etched/5f1f5739-3b58-467c-b351-ff183c94d96d"
+  },
+  "https://jobs.ashbyhq.com/Etched/614b3592-9043-4c68-9808-bf2747d57146": {
+   "category": "Electrical / hardware",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "Internal Acceleration, Engineer (Hardware)",
+   "url": "https://jobs.ashbyhq.com/Etched/614b3592-9043-4c68-9808-bf2747d57146"
+  },
+  "https://jobs.ashbyhq.com/Etched/699f3ab2-07e4-466c-9d76-3d4a3abb4ebc": {
+   "category": "Embedded / firmware",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "Firmware Intern",
+   "url": "https://jobs.ashbyhq.com/Etched/699f3ab2-07e4-466c-9d76-3d4a3abb4ebc"
+  },
+  "https://jobs.ashbyhq.com/Etched/6d948f9a-a359-4107-9d30-4d62e8fe7707": {
+   "category": "Digital / ASIC design",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "Internal Acceleration, Research Engineer (ASIC)",
+   "url": "https://jobs.ashbyhq.com/Etched/6d948f9a-a359-4107-9d30-4d62e8fe7707"
+  },
+  "https://jobs.ashbyhq.com/Etched/77f0497f-086e-4d89-bbcd-bac7a79bf9a1": {
+   "category": "Design verification",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Austin",
+   "season": "Summer",
+   "status": "open",
+   "title": "Design Verification Engineer - Internal IP",
+   "url": "https://jobs.ashbyhq.com/Etched/77f0497f-086e-4d89-bbcd-bac7a79bf9a1"
+  },
+  "https://jobs.ashbyhq.com/Etched/7aeafe31-c2c6-43e0-bb31-01868dcfad39": {
+   "category": "Design verification",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "Design Verification Engineer - Internal IP",
+   "url": "https://jobs.ashbyhq.com/Etched/7aeafe31-c2c6-43e0-bb31-01868dcfad39"
+  },
+  "https://jobs.ashbyhq.com/Etched/904ddf46-55fc-4a8f-8b49-f32cfe88116a": {
+   "category": "Electrical / hardware",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Platform Intern",
+   "url": "https://jobs.ashbyhq.com/Etched/904ddf46-55fc-4a8f-8b49-f32cfe88116a"
+  },
+  "https://jobs.ashbyhq.com/Etched/dacedaca-c4ca-4964-85a7-8df1738005bb": {
+   "category": "Design verification",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "DV Intern",
+   "url": "https://jobs.ashbyhq.com/Etched/dacedaca-c4ca-4964-85a7-8df1738005bb"
+  },
+  "https://jobs.ashbyhq.com/Etched/e88d1367-9166-4a00-b450-f194163c7225": {
+   "category": "Digital / ASIC design",
+   "company": "Etched",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Jose",
+   "season": "Summer",
+   "status": "open",
+   "title": "Internal Acceleration, Engineer (ASIC)",
+   "url": "https://jobs.ashbyhq.com/Etched/e88d1367-9166-4a00-b450-f194163c7225"
+  },
+  "https://jobs.ashbyhq.com/quadric/8bc97324-bcdb-4680-a03c-4c6e590644c2": {
+   "category": "Digital / ASIC design",
+   "company": "Quadric",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Burlingame, CA (HQ)",
+   "season": "Summer",
+   "status": "open",
+   "title": "RTL Intern",
+   "url": "https://jobs.ashbyhq.com/quadric/8bc97324-bcdb-4680-a03c-4c6e590644c2"
+  },
+  "https://jobs.ashbyhq.com/saronic/c7779462-3c4c-44d9-8314-1be93a0e478a": {
+   "category": "Electrical / hardware",
+   "company": "Saronic",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Austin, TX",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineer Intern (Summer 2027)",
+   "url": "https://jobs.ashbyhq.com/saronic/c7779462-3c4c-44d9-8314-1be93a0e478a"
+  },
+  "https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea": {
+   "category": "Electrical / hardware",
+   "company": "Skydio",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Mateo, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Wireless Hardware Engineer Intern - Summer 2027",
+   "url": "https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea"
+  },
+  "https://jobs.ashbyhq.com/skydio/36d75e36-eeb2-4399-8887-37c4a5ff5800": {
+   "category": "Validation / test",
+   "company": "Skydio",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Mateo, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Test and Reliability Intern - Summer 2027",
+   "url": "https://jobs.ashbyhq.com/skydio/36d75e36-eeb2-4399-8887-37c4a5ff5800"
+  },
+  "https://jobs.ashbyhq.com/skydio/57336f0f-a8ed-4ede-b6da-d399e5335fe4": {
+   "category": "Electrical / hardware",
+   "company": "Skydio",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Mateo, California, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Electrical Engineer Intern",
+   "url": "https://jobs.ashbyhq.com/skydio/57336f0f-a8ed-4ede-b6da-d399e5335fe4"
+  },
+  "https://jobs.ashbyhq.com/skydio/add7fd86-78e6-483e-98cd-cdfc1029fded": {
+   "category": "Electrical / hardware",
+   "company": "Skydio",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "San Mateo, California, United States",
+   "season": "Winter",
+   "status": "open",
+   "title": "Hardware In Loop (HIL) Software Engineer Intern - Winter 2027",
+   "url": "https://jobs.ashbyhq.com/skydio/add7fd86-78e6-483e-98cd-cdfc1029fded"
+  },
+  "https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c": {
+   "category": "Validation / test",
+   "company": "Hermeus",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Atlanta, GA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Subsystem Test Engineering Intern - Spring/Summer 2027",
+   "url": "https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c"
+  },
+  "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd": {
+   "category": "Electrical / hardware",
+   "company": "Hermeus",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Los Angeles, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027",
+   "url": "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd"
+  },
+  "https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462": {
+   "category": "Electrical / hardware",
+   "company": "Hermeus",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Atlanta, GA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Avionics Electrical Engineering Intern - Summer 2027",
+   "url": "https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462"
+  },
+  "https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d": {
+   "category": "Validation / test",
+   "company": "Hermeus",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Jacksonville, FL",
+   "season": "Summer",
+   "status": "open",
+   "title": "Propulsion Test Engineering Intern - Spring/Summer/Fall 2027",
+   "url": "https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d"
+  },
+  "https://jobs.lever.co/zoox/07f0834f-06ec-44c7-a24b-3efa08589d38": {
+   "category": "Embedded / firmware",
+   "company": "Zoox",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Foster City, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Contract Student Worker  \u2013 Firmware Engineer (FW Thermal/Body)",
+   "url": "https://jobs.lever.co/zoox/07f0834f-06ec-44c7-a24b-3efa08589d38"
+  },
+  "https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62": {
+   "category": "Electrical / hardware",
+   "company": "Zoox",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Foster City, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Engineer Intern, Vehicle Development [Summer 2027]",
+   "url": "https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62"
+  },
+  "https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b": {
+   "category": "Electrical / hardware",
+   "company": "Zoox",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Foster City, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Engineer Intern, Vehicle Systems [Summer 2027]",
+   "url": "https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b"
+  },
+  "https://jobs.lever.co/zoox/53f5297a-fe30-4e1e-ab1c-96db5b23eded": {
+   "category": "Electrical / hardware",
+   "company": "Zoox",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Foster City, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Engineer Intern, Manufacturing Operations [Summer 2027]",
+   "url": "https://jobs.lever.co/zoox/53f5297a-fe30-4e1e-ab1c-96db5b23eded"
+  },
+  "https://jobs.lever.co/zoox/54be0f19-9a45-466d-89bc-bc72dd3f9d68": {
+   "category": "Embedded / firmware",
+   "company": "Zoox",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Foster City, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Contract Student Worker  \u2013 Firmware Engineer (FW Core System Services)",
+   "url": "https://jobs.lever.co/zoox/54be0f19-9a45-466d-89bc-bc72dd3f9d68"
+  },
+  "https://jobs.lever.co/zoox/cc43bf88-ed84-408f-a557-3d1c7263ddff": {
+   "category": "Validation / test",
+   "company": "Zoox",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "Foster City, CA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Contract Student Worker \u2013 AI Validation and Benchmarking Engineer (40hrs / week Full-Time)",
+   "url": "https://jobs.lever.co/zoox/cc43bf88-ed84-408f-a557-3d1c7263ddff"
+  },
+  "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525": {
+   "category": "Digital / ASIC design",
+   "company": "Marvell",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "2 Locations",
+   "season": "Summer",
+   "status": "open",
+   "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525"
+  },
+  "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Westborough-MA/Functional-Validation-Intern--BS---Summer-2027_2604514-1": {
+   "category": "Validation / test",
+   "company": "Marvell",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "3 Locations",
+   "season": "Summer",
+   "status": "open",
+   "title": "Functional Validation Intern, BS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Westborough-MA/Functional-Validation-Intern--BS---Summer-2027_2604514-1"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Software-Engineering-Intern--Compiler-Verification---Spring-2027_JR2026177": {
+   "category": "Design verification",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "2 Locations",
+   "season": "Spring",
+   "status": "open",
+   "title": "Software Engineering Intern, Compiler Verification - Spring 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Software-Engineering-Intern--Compiler-Verification---Spring-2027_JR2026177"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/DFT-Engineer--RDSS-Intern----2027_JR2026180": {
+   "category": "Digital / ASIC design",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "2 Locations",
+   "season": "Summer",
+   "status": "open",
+   "title": "DFT Engineer (RDSS Intern) - 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/DFT-Engineer--RDSS-Intern----2027_JR2026180"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504": {
+   "category": "Digital / ASIC design",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US, CA, Santa Clara",
+   "season": "Summer",
+   "status": "open",
+   "title": "NVIDIA 2027 Internships: Digital Circuit Design",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486": {
+   "category": "Digital / ASIC design",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US, CA, Santa Clara",
+   "season": "Summer",
+   "status": "open",
+   "title": "NVIDIA 2027 Internships: Hardware ASIC Design",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1": {
+   "category": "Validation / test",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US, CA, Santa Clara",
+   "season": "Summer",
+   "status": "open",
+   "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501": {
+   "category": "Electrical / hardware",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US, CA, Santa Clara",
+   "season": "Summer",
+   "status": "open",
+   "title": "NVIDIA 2027 Internships: Hardware Physical Design / VLSI",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500": {
+   "category": "Design verification",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US, CA, Santa Clara",
+   "season": "Summer",
+   "status": "open",
+   "title": "NVIDIA 2027 Internships: Hardware Verification",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PCIe-Design-Verification-Intern---Spring-2027_JR2026704": {
+   "category": "Design verification",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US, CA, Santa Clara",
+   "season": "Spring",
+   "status": "open",
+   "title": "PCIe Design Verification Intern - Spring 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PCIe-Design-Verification-Intern---Spring-2027_JR2026704"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/PCIe-Design-Verification-Intern---Summer-2027_JR2026708": {
+   "category": "Design verification",
+   "company": "NVIDIA",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "US, TX, Austin",
+   "season": "Summer",
+   "status": "open",
+   "title": "PCIe Design Verification Intern - Summer 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/PCIe-Design-Verification-Intern---Summer-2027_JR2026708"
+  },
+  "https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/RF-Validation-Internship_21229-3": {
+   "category": "Validation / test",
+   "company": "Silicon Labs",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "",
+   "season": "Summer",
+   "status": "open",
+   "title": "RF Validation Internship",
+   "url": "https://silabs.wd1.myworkdayjobs.com/SiliconlabsCareers/job/RF-Validation-Internship_21229-3"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7899574": {
+   "category": "Electrical / hardware",
+   "company": "Hudson River Trading",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "New York, NY, United States",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Engineer Internship - Summer 2027",
+   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7899574"
+  },
+  "https://www.zipline.com/open-roles/7893955003?gh_jid=7893955003": {
+   "category": "Validation / test",
+   "company": "Zipline",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, USA",
+   "season": "Spring",
+   "status": "open",
+   "title": "Software Systems Validation Intern (Spring 2027)",
+   "url": "https://www.zipline.com/open-roles/7893955003?gh_jid=7893955003"
+  },
+  "https://www.zipline.com/open-roles/7894335003?gh_jid=7894335003": {
+   "category": "Validation / test",
+   "company": "Zipline",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, USA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Software Systems Validation Intern (Summer 2027)",
+   "url": "https://www.zipline.com/open-roles/7894335003?gh_jid=7894335003"
+  },
+  "https://www.zipline.com/open-roles/7894349003?gh_jid=7894349003": {
+   "category": "Validation / test",
+   "company": "Zipline",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, USA",
+   "season": "Spring",
+   "status": "open",
+   "title": "Hardware Test Intern (Spring 2027)",
+   "url": "https://www.zipline.com/open-roles/7894349003?gh_jid=7894349003"
+  },
+  "https://www.zipline.com/open-roles/7903483003?gh_jid=7903483003": {
+   "category": "Validation / test",
+   "company": "Zipline",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, USA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Hardware Test Intern (Summer 2027)",
+   "url": "https://www.zipline.com/open-roles/7903483003?gh_jid=7903483003"
+  },
+  "https://www.zipline.com/open-roles/7999929003?gh_jid=7999929003": {
+   "category": "Validation / test",
+   "company": "Zipline",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, USA",
+   "season": "Spring",
+   "status": "open",
+   "title": "Flight Test Engineer Intern (Spring 2027)",
+   "url": "https://www.zipline.com/open-roles/7999929003?gh_jid=7999929003"
+  },
+  "https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003": {
+   "category": "Embedded / firmware",
+   "company": "Zipline",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, USA",
+   "season": "Spring",
+   "status": "open",
+   "title": "Firmware Engineer Intern (Spring 2027)",
+   "url": "https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003"
+  },
+  "https://www.zipline.com/open-roles/8020865003?gh_jid=8020865003": {
+   "category": "Embedded / firmware",
+   "company": "Zipline",
+   "first_seen": "2026-11-16T22:38:43Z",
+   "last_seen": "2026-11-16T22:38:43Z",
+   "location": "South San Francisco, California, USA",
+   "season": "Summer",
+   "status": "open",
+   "title": "Firmware Engineer Intern (Summer 2027)",
+   "url": "https://www.zipline.com/open-roles/8020865003?gh_jid=8020865003"
+  }
+ }
+}
