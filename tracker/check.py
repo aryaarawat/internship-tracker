@@ -146,8 +146,8 @@ def main():
         print("  ERR", e)
 
     site = os.environ.get("SITE_URL", "")
-    if first_run:
-        discord([{"title": "Internship tracker is live",
+    if first_run or os.environ.get("SEND_TEST") == "true":
+        discord([{"title": "Internship tracker is live" if first_run else "Internship tracker test message",
                   "description": f"Tracking **{n_open}** US hardware intern/co-op postings across "
                                  f"{len(ok_companies)} company boards. Checking every hour; "
                                  f"new postings will show up here.\n{site}", "color": 0x2F855A}])
