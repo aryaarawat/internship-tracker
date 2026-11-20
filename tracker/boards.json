@@ -377,5 +377,110 @@
   "host": "semtech.wd1.myworkdayjobs.com",
   "tenant": "semtech",
   "site": "SemtechCareers"
+ },
+ {
+  "company": "Ciena",
+  "ats": "workday",
+  "host": "ciena.wd5.myworkdayjobs.com",
+  "tenant": "ciena",
+  "site": "Careers"
+ },
+ {
+  "company": "Hewlett Packard Enterprise",
+  "ats": "workday",
+  "host": "hpe.wd5.myworkdayjobs.com",
+  "tenant": "hpe",
+  "site": "jobsathpe"
+ },
+ {
+  "company": "Lumentum",
+  "ats": "workday",
+  "host": "lumentum.wd5.myworkdayjobs.com",
+  "tenant": "lumentum",
+  "site": "LITE"
+ },
+ {
+  "company": "GlobalFoundries",
+  "ats": "workday",
+  "host": "globalfoundries.wd1.myworkdayjobs.com",
+  "tenant": "globalfoundries",
+  "site": "External"
+ },
+ {
+  "company": "Applied Materials",
+  "ats": "workday",
+  "host": "amat.wd1.myworkdayjobs.com",
+  "tenant": "amat",
+  "site": "External"
+ },
+ {
+  "company": "Ambarella",
+  "ats": "workday",
+  "host": "ambarella.wd108.myworkdayjobs.com",
+  "tenant": "ambarella",
+  "site": "ambarella"
+ },
+ {
+  "company": "KLA",
+  "ats": "workday",
+  "host": "kla.wd1.myworkdayjobs.com",
+  "tenant": "kla",
+  "site": "search"
+ },
+ {
+  "company": "Altera",
+  "ats": "workday",
+  "host": "altera.wd1.myworkdayjobs.com",
+  "tenant": "altera",
+  "site": "altera"
+ },
+ {
+  "company": "Viavi",
+  "ats": "workday",
+  "host": "viavisolutions.wd1.myworkdayjobs.com",
+  "tenant": "viavisolutions",
+  "site": "careers"
+ },
+ {
+  "company": "Schweitzer Engineering Labs",
+  "ats": "workday",
+  "host": "selinc.wd1.myworkdayjobs.com",
+  "tenant": "selinc",
+  "site": "SEL"
+ },
+ {
+  "company": "Blue Origin",
+  "ats": "workday",
+  "host": "blueorigin.wd5.myworkdayjobs.com",
+  "tenant": "blueorigin",
+  "site": "blueorigin"
+ },
+ {
+  "company": "The Aerospace Corporation",
+  "ats": "workday",
+  "host": "aero.wd5.myworkdayjobs.com",
+  "tenant": "aero",
+  "site": "external"
+ },
+ {
+  "company": "Teledyne FLIR",
+  "ats": "workday",
+  "host": "flir.wd1.myworkdayjobs.com",
+  "tenant": "flir",
+  "site": "flircareers"
+ },
+ {
+  "company": "Motorola Solutions",
+  "ats": "workday",
+  "host": "motorolasolutions.wd5.myworkdayjobs.com",
+  "tenant": "motorolasolutions",
+  "site": "Careers"
+ },
+ {
+  "company": "Moog",
+  "ats": "workday",
+  "host": "moog.wd5.myworkdayjobs.com",
+  "tenant": "moog",
+  "site": "moog_external_career_site"
  }
 ]

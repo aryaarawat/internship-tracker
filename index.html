@@ -56,13 +56,13 @@ footer{margin-top:30px;font-size:12px;color:var(--muted)}
 <header>
   <button class="theme" id="theme" aria-label="Toggle theme">◐</button>
   <h1>Hardware Internship Tracker</h1>
-  <p>Summer 2027 RTL, DV, FPGA and silicon validation internships. Company job boards are checked every hour, and new postings are sent to Discord.</p>
+  <p>US-based, undergrad-eligible RTL, DV, FPGA and silicon validation internships. Company job boards (Greenhouse, Lever, Ashby, Workday) and the SimplifyJobs feed are checked every 10 minutes, and new postings are sent to Discord.</p>
 </header>
 
 <div class="stats">
   <div class="stat"><b id="s-open">–</b><span>Open postings</span></div>
   <div class="stat"><b id="s-new">–</b><span>New (72h)</span></div>
-  <div class="stat"><b id="s-boards">–</b><span>Boards tracked</span></div>
+  <div class="stat"><b id="s-boards">–</b><span>Sources tracked</span></div>
   <div class="stat"><b id="s-checked" style="font-size:15px;padding-top:6px">–</b><span>Last checked</span></div>
 </div>
 
@@ -127,7 +127,7 @@ function renderLive() {
   $("#list").innerHTML = rows.length ? rows.map(p => {
     const isNew = p.status === "open" && Date.now() - new Date(p.first_seen) < 72 * 3600e3;
     return `<div class="card ${p.status}">
-      <div><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a><div class="co">${esc(p.company)}</div></div>
+      <div><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a><div class="co">${esc(p.company)}${p.source === "SimplifyJobs feed" ? " · via Simplify" : ""}</div></div>
       <div class="date">${p.status === "closed" ? "closed " + ago(p.closed_at) : "found " + ago(p.first_seen)}</div>
       <div class="meta">${isNew ? '<span class="pill new">NEW</span>' : ""}<span class="pill">${esc(p.category)}</span>
         <span class="pill gray">${esc(p.season)}</span>${p.location ? `<span class="pill gray">${esc(p.location.slice(0, 60))}</span>` : ""}
@@ -164,8 +164,8 @@ function renderTargets() {
     $("#s-checked").textContent = d.last_checked ? ago(d.last_checked) : "–";
     [...new Set(postings.map(p => p.category))].sort().forEach(c => $("#cat").insertAdjacentHTML("beforeend", `<option>${esc(c)}</option>`));
     const bad = Object.entries(d.boards || {}).filter(([, v]) => !v.ok).map(([k]) => k);
-    $("#foot").textContent = (bad.length ? `Boards that failed on the last check: ${bad.join(", ")}. ` : "") + "Data comes from the companies' own Greenhouse, Lever, Ashby and Workday boards.";
-  } catch (e) { $("#list").innerHTML = '<div class="empty">Could not load postings yet. The first hourly check may still be running.</div>'; }
+    $("#foot").textContent = (bad.length ? `Boards that failed on the last check: ${bad.join(", ")}. ` : "") + "Data comes from the companies' own Greenhouse, Lever, Ashby and Workday boards, plus the SimplifyJobs aggregator feed. Only US locations; postings for PhD/Master's students only are filtered out.";
+  } catch (e) { $("#list").innerHTML = '<div class="empty">Could not load postings yet. The first check may still be running.</div>'; }
   renderLive();
   try {
     const csv = await (await fetch("targets.csv" + bust)).text();
